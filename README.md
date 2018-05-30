@@ -1,2 +1,34 @@
 # IQRO
-IQRO 
+Nama Startup : IQRO 
+
+Anggota Kelompok :
+1. Dikot Syarif Hidayatullah  | 16.11.0400
+2. Samsul Rijal 			  | 16.11.0387
+3. Afdhal Lutfi				  | 16.11.0347
+4. M.Kholilurahman			  | 16.11.0351
+5. Fitrahdin				  | 16.11.0340
+
+Deskripsi : 
+IQRO merupakan website e-learning belajar membaca al-quran dan membenarkan bacaan al-quran.
+
+Fitur :
+1. User
+	- Homepage
+	- Login
+	- Registrasi
+	- Simak Bacaan/trial
+	- Halaman Team, Tentang Kami, Bantuan
+2. Santri
+	- Homepage
+	- Login
+	- Registrasi
+	- Pilih kelas e-learning/IQRO
+	- Fitur Simak Bacaan/trial
+	- Fitur IQRO Plan
+	- Halaman Pembayaran IQRO Plan
+	- Halaman e-learning IQRO Plan
+3. Ustadz
+	- Homepage
+	- Login
+	- Review kelas IQRO Plan
+	- Ujian IQRO Plan
