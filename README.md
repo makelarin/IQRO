@@ -23,12 +23,10 @@ Fitur :
 	- Login
 	- Registrasi
 	- Pilih kelas e-learning/IQRO
-	- Fitur Simak Bacaan/trial
+	- Fitur Simak Bacaan Al-quran dan IQRO
 	- Fitur IQRO Plan
-	- Halaman Pembayaran IQRO Plan
 	- Halaman e-learning IQRO Plan
 3. Ustadz
 	- Homepage
 	- Login
-	- Review kelas IQRO Plan
 	- Ujian IQRO Plan
