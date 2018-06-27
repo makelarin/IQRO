@@ -5,11 +5,11 @@ Anggota Kelompok :
 1. Dikot Syarif Hidayatullah  | 16.11.0400
 2. Samsul Rijal 			  | 16.11.0387
 3. Afdhal Lutfi				  | 16.11.0347
-4. M.Kholilurahman			  | 16.11.0351
+4. M.Kholilurrahman			  | 16.11.0351
 5. Fitrahdin				  | 16.11.0340
 
 Deskripsi : 
-IQRO merupakan website e-learning belajar membaca al-quran dan membenarkan bacaan al-quran.
+IQRO merupakan website e-learning belajar membaca al-quran dan membenarkan bacaan Al-Qur'an.
 
 Fitur :
 1. User
@@ -23,7 +23,7 @@ Fitur :
 	- Login
 	- Registrasi
 	- Pilih kelas e-learning/IQRO
-	- Fitur Simak Bacaan Al-quran dan IQRO
+	- Fitur Simak Bacaan Al-Qur'an dan IQRO
 	- Fitur IQRO Plan
 	- Halaman e-learning IQRO Plan
 3. Ustadz
