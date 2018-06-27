@@ -17,7 +17,7 @@ Fitur :
 	- Login
 	- Registrasi
 	- Simak Bacaan/trial
-	- Halaman Team, Tentang Kami, Bantuan
+	- Halaman Team, Tentang Kami, Bantuan.
 2. Santri
 	- Homepage
 	- Login
