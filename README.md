@@ -9,7 +9,7 @@ Anggota Kelompok :
 5. Fitrahdin				  | 16.11.0340
 
 Deskripsi : 
-IQRO merupakan website e-learning belajar membaca al-quran dan membenarkan bacaan Al-Qur'an.
+IQRO merupakan website e-learning belajar membaca Al-Qur'an dan membenarkan bacaan Al-Qur'an.
 
 Fitur :
 1. User
