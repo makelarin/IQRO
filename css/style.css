@@ -11,6 +11,15 @@
 .bg{
 	background-color: yellow;
 }
-.bg1{
+.bg1 {
 	background-color: #eaeaea;
+}
+.bg1 hr{
+
+	width: 350px;
+	border-top:4px solid black;
+	 margin-top: 0.5em;
+    margin-bottom: 0.5em;
+	margin-right: -10px;
+
 }
