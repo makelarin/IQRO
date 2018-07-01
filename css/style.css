@@ -75,3 +75,34 @@
   color: #50DD66;
 }
 
+.image_section{
+  display: block;
+}
+
+@media (max-width:640px){
+  .image_section img:first-child{
+      display:none;
+  }
+}
+
+.plink{
+padding: 0px;
+color: white;
+}
+
+.plink:hover{
+  padding: 0px;
+  color:#9ed8b0;
+}
+
+.plink:active {
+  color: #3db161;
+}
+
+.plink img{
+  padding-left: 20px;
+}
+.plink img:hover{
+  padding-left: 20px;
+  opacity: 0.6;
+}
