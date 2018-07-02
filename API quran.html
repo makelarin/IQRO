@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #demo-1 {
+            color: lightBlue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="demo-1">
+    </div>
+
+    <button>Change href Value</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $.ajaxSetup({ cache: true, jsonpCallback: 'quranData' }); // define ajax setup
+        $.getJSON("https://api.globalquran.com/surah/114/quran-simple?key=12a2b3d44241b09b58a23d7ac00c0c96&jsoncallback=?", {
+            format: "jsonp"
+        }, function (data) {
+            $.each(data.quran, function (i, by) {
+                $.each(by, function (verseNo, line) {
+                    $("<p>").html(line.surah + ':' + line.ayah + ' ' + line.verse).appendTo("#demo-1");
+                    if (verseNo == 10)
+                        return false;
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#w3s").attr("href", "https://api.globalquran.com/surah/1/quran-simple?key=12a2b3d44241b09b58a23d7ac00c0c96&jsoncallback=?");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
