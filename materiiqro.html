@@ -16,6 +16,19 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:500|Source+Sans+Pro:400,700" rel="stylesheet">
 
+    <!-- Script API -->
+    <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
+    <script type="text/javascript">
+        google.books.load();
+
+        function initialize() {
+            var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+            viewer.load('ISBN:9789791479684');
+        }
+
+        google.books.setOnLoadCallback(initialize);
+    </script>
+
     <title>IQRO</title>
 </head>
 
@@ -63,12 +76,26 @@
     <div class="container-fluid" style="background-color: #EFFFF0; font-family: 'Source Sans Pro', sans-serif; ">
         <div class="container shadow" style="background-color: #22996B;">
             <div class="row">
-                <div class="col-md-6 py-5 text-center ">
+                <div class="col-md-6 my-auto text-center ">
                     <h1 class="text-white font-weight-bold" style="font-size: 55px">IQRO Plan</h1>
                 </div>
                 <div class="col-md-6 text-center pt-4">
                     <img class="img-fluid w-auto h-auto" src="Images/daftarkelas_ico.png">
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tampilan IQRO -->
+    <div class="container bg-light shadow py-4 text-center">
+        <h1 class="font-weight-bold text-info pb-3">Materi IQRO</h1>
+        <div class="mx-auto pb-5" id="viewerCanvas" style="width: 800px; height: 900px"></div>
+        <div class="row mx-5 py-3" style="border-radius: 8px; background-color: #22996B;">
+            <div class="col-md-4 my-auto">
+                <h2 class=" text-white">Simak Bacaan</h2>
+            </div>
+            <div class="col-md-8">
+                <img class="img-fluid" src="Images/voice_call.png" alt="">
             </div>
         </div>
     </div>
