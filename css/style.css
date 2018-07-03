@@ -50,15 +50,7 @@
 }
 
 
-.bg1 hr{
-
-	width: 350px;
-	border-top:4px solid black;
-	 margin-top: 0.5em;
-    margin-bottom: 0.5em;
-	margin-right: -10px;
-
-}
+.bg1 
 
 
 .bg2{
@@ -70,6 +62,39 @@
 .bg4{
 	background-color: blue;
 }
+<<<<<<< HEAD
+/*Banner*/
+.banner{
+	margin-bottom: 10px;
+
+}
+.logobenner{
+ padding-top: 5px;
+ padding-left: 60px;
+}
+.button{
+	position: relative;
+	left: 95px;
+	margin: 5px;
+	padding: 4px;
+	
+}
+ul{
+	list-style: none;
+}
+
+/*penutupBanner*/
+
+/*bagian Simak*/
+
+.simak{
+ padding-top: 5px;
+ margin-bottom: 10px;
+
+}
+
+/*penutup Simak*/
+=======
 
 .fa{
   color: #50DD66;
@@ -134,3 +159,6 @@ ul{
   margin-bottom: 20px;
 }
 /*penutup simak*/
+
+
+
