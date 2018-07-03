@@ -131,3 +131,31 @@ color: white;
   padding-left: 20px;
   opacity: 0.6;
 }
+/*banner*/
+.banner{
+  margin-bottom: 10px;
+
+}
+.logobenner{
+ padding-top: 5px;
+ padding-left: 60px;
+}
+.button{
+  position: relative;
+  left: 95px;
+  margin: 5px;
+  padding: 4px;
+  
+}
+ul{
+  list-style: none;
+}
+/*penutup Banner*/
+
+/*simak*/
+.simak{
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+/*penutup simak*/
