@@ -209,8 +209,8 @@ ul{
 	height: 35px;
 }
 .btn2{
-	background-color: white;
-	color: #fbc68c;
+	background-color: #3cc4e5;
+	color: white;
 	border:1px solid;
 	border-color:#3cc4e5;
 	width: 200px;
@@ -246,7 +246,19 @@ ul{
 	color: white;
 	border-radius: 33px;
 	border:0px;
+	background-color: #f89825;
 	margin-bottom: 20px;
 	
 }
 
+/*daftar*/
+.button2{
+	width: 400px;
+	height: 32px;
+	margin-top: 10px;
+	border-radius: 33px;
+	border:0px;
+	background-color: #f89825;
+	margin-bottom: 30px;
+
+}
