@@ -13,9 +13,8 @@ ________________________________________________________________________________
 
 NAMA KELOMPOK :
 
-1. DikoT Syarif					  16.11.0387
-2. Samsul Rijal					  16.11.0336
-3. M. Kholilurrahman			14.11.7862
-4. Afdhol Luthfi					16.11.0348
-5. Fitrahdin					    16.11.0356
-
+1. Dikot Syarif	Hidayatullah			  16.11.03400
+2. Samsul Rijal					  		  16.11.0387
+3. M. Kholilurrahman					  16.11.0351
+4. Afdhal Luthfi						  16.11.0347
+5. Fitrahdin					    	  16.11.0390
