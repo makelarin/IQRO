@@ -1,9 +1,7 @@
 Nama : IQRO
-Deskripsi :
 
- Aplikasi Belajar Al-Qur'an Online (IQRO)
-************************\_\_************************
-IQRO merupakan website e-learning belajar membaca Al-Qur'an dan membenarkan bacaan Al-Qur'an.
+Deskripsi :
+Aplikasi Belajar Al-Qur'an Online (IQRO) merupakan website e-learning belajar membaca Al-Qur'an dan membenarkan bacaan Al-Qur'an.
 
 NAMA KELOMPOK :
 
@@ -16,13 +14,13 @@ NAMA KELOMPOK :
 Fitur :
 
 1.  User
+
     - Homepage
     - Login
     - Registrasi
     - Simak Bacaan/trial
     - Halaman Team, Tentang Kami, Bantuan.
-
-- Halaman checkout
+    - Halaman checkout
 
 2.  Santri
     - Homepage
