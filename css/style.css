@@ -209,8 +209,8 @@ ul{
 	height: 35px;
 }
 .btn2{
-	background-color: #3cc4e5;
-	color: white;
+	background-color: white;
+	color: #fbc68c;
 	border:1px solid;
 	border-color:#3cc4e5;
 	width: 200px;
@@ -246,8 +246,17 @@ ul{
 	color: white;
 	border-radius: 33px;
 	border:0px;
-	background-color: #f89825;
 	margin-bottom: 20px;
+	background-color: #FF0000;
+}
+.facebook{
+	width: 200px;
+	height: 32px;
+	color: white;
+	border-radius: 33px;
+	border:0px;
+	margin-bottom: 20px;
+	background-color: #3078c1;
 	
 }
 
