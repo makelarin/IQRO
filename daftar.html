@@ -62,39 +62,42 @@
 
     <!-- // -->
     <div align="center">
-        <div class="container-fluid1" style="background-color: #f2f2f2; padding-top: 20px; padding-bottom: 20px;">
+        <div class="container-fluid1" style="background-color: #f2f2f2; padding-top: 20px; padding-bottom: 120px;">
             <div class="card">
                 <div class="card-body">
                     <b> Daftar Sebagai Santri</b>
                     <br>
                     <p> isi data kamu dibawah dengan
                         <br> lengkap untuk mulai merasakan
-                        <br> #BelajarJadiLuarBiasa!</p>
+                        <br> #BelajarIQRO</p>
                     <br>
 
+                    <form action="/login.html" method="" onSubmit="return ckForm()">
+                        <div class="label" align="left">Nama Lengkap </div>
+                        <input type="Text" name="nama" id="nama" placeholder="Nama Lengkap" class="input"></input>
+                        <div class="label" align="left">Email </div>
+                        <input type="Email" id="email" name="nama" placeholder="Email" class="input"></input>
+                        <div class="label" align="left">Nomor Handphone</div>
+                        <input type="Text" name="nama" id="noHP" placeholder="Nomor Handphone" class="input"></input>
 
-                    <div class="label" align="left">Nama Lengkap </div>
-                    <input type="Text" name="nama" placeholder="Nama Lengkap" class="input"></input>
-                    <div class="label" align="left">Email </div>
-                    <input type="Email" name="nama" placeholder="Email" class="input"></input>
-                    <div class="label" align="left">Nomor Handphone</div>
-                    <input type="Text" name="nama" placeholder="Nomor Handphone" class="input"></input>
-                    <div class="label" align="left">Kelas* </div>
-                    <input type="Text" name="nama" placeholder="masukan kelas" class="input"></input>
-                    <div class="label" align="left">Kata Sandi (minimal 6 karakter) </div>
-                    <input type="password" name="password" placeholder="Kata Sandi" class="input"></input>
-                    <div class="label" align="left">Konfirmasi Kata Sandi</div>
-                    <input type="Password" name="password" placeholder="Konfirmasi Sandi" class="input"></input>
-                    <a href="login.html">
-                        <button type="button" class="button btn-success">DAFTAR</button>
-                    </a>
+                        <div class="label" align="left">Kata Sandi (minimal 6 karakter) </div>
+                        <input type="password" name="password" id="password" placeholder="Kata Sandi" class="input"></input>
+                        <div class="label" align="left">Konfirmasi Kata Sandi</div>
+                        <input type="Password" name="password" id="password2" placeholder="Konfirmasi Sandi" class="input"></input>
+                        <a href="login.html">
+                            <button type="submit" value="Submit" class="button2 btn-success">DAFTAR</button>
+                        </a>
+                    </form>
+                    <a href="https://accounts.google.com/">
+                        <a href="https://accounts.google.com/">
+                            <button type="button" class="google btn-success">GOOGLE</button>
+                            <a href="https://id-id.facebook.com/login/">
+                                <button type="button" class="facebook btn-success"> FACEBOOK </button>
+                            </a>
 
-                    <button type="button" class="google" style="background-color: red;">GOOGLE</button>
-                    <button type="button" class="google" style="background-color: #3078c1;">FACEBOOK</button>
-
-                    <p align="center" class="akun">sudah Punya akun?
-                        <a href="login.html">Masuk Disini</a>
-                    </p>
+                            <p align="center" class="akun">Sudah punya akun?
+                                <a href="login.html">Masuk disini</a>
+                            </p>
 
 
                 </div>
@@ -240,6 +243,43 @@
         crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
         crossorigin="anonymous "></script>
+
+    <!-- Validasi -->
+    <script language="JavaScript">
+        function ckForm() {
+            var str, error;
+            str = "";
+            error = 0;
+            if (document.getElementById("nama").value.length <= 0) {
+                str += "- Nama tidak boleh kosong.\n";
+                error++;
+            }
+            if (document.getElementById("email").value.length <= 0) {
+                str += "- Email tidak boleh kosong.\n";
+                error++;
+            }
+            if (document.getElementById("noHP").value.length <= 0) {
+                str += "- No.HP tidak boleh kosong.\n";
+                error++;
+            }
+            if (document.getElementById("password").value.length <= 0) {
+                str += "- Password tidak boleh kosong.\n";
+                error++;
+            }
+            if (document.getElementById("password2").value.length <= 0) {
+                str += "- Konfirmasi Kata Sandi tidak boleh kosong.\n";
+                error++;
+            }
+            if (error > 0) {
+                alert("Terdapat kesalahan : \n" + str);
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+
+
 </body>
 
 </html>
