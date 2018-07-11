@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Required meta tags -->
+ <meta Charset="utf-8">
+ <meta Name="viewport" content="width=device-width,  initial-scale=1,  shrink-to-fit=no">
+
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+     crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+ <!-- Main CSS -->
+ <link href="css/style.css" rel="stylesheet">
+ <link rel="stylesheet" href="css/uji.css">
+
+ <!-- Google font -->
+ <link href="https://fonts.googleapis.com/css?family=Raleway:500|Source+Sans+Pro:400,700" rel="stylesheet">
+ <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16">
+ <title>IQRO</title>
+<!-- <style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+</style> -->
+</head>
+<body>
+        <!-- navbar  -->
+    <div class="container-fluid bg-white sticky-top shadow-sm  border-bottom border-success">
+                <div class="container bg-white">
+                    <nav class="navbar  navbar-expand-lg navbar-light bg-white">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="Images/logoiqro.png" width="130" height="mr-auto" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto" style="font-family:'Lato', sans-serif; font-size: 18px;">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Produk Kami
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Simak Bacaan</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">IQRO Plan</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bantuan.html">Bantuan</a>
+                                </li>
+                            </ul>
+                            <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                <a href="#" class="btn btn-outline-success" role="button">Masuk</a>
+                                <a href="#" class="btn btn-success" role="button">Daftar</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+    <!-- subjudul -->
+    <div class="container-fluid" style="background-color: #EFFFF0; font-family: 'Source Sans Pro', sans-serif; ">
+            <div class="container shadow" style="background-color: #22996B;">
+                <div class="row">
+                    <div class="col-md-6 py-5 text-center ">
+                        <h1 class="text-white font-weight-bold" style="font-size: 55px">IQRO Plan</h1>
+                    </div>
+                    <div class="col-md-6 text-center pt-4">
+                        <img class="img-fluid w-auto h-auto" src="Images/daftarkelas_ico.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- pSubjudul -->
+<!-- subVideo -->
+<div class="container">
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid')" id="defaultOpen">Pengantar Tajwid</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid1')">Materi 1 : Tajwid</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid2')">Materi 2 : pengenlan hukum Tajwid</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid3')">Materi 3 : Hukum Izhar</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid4')">Materi 4 : Hukum Idghom</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'Materi5')">Materi 5 : Hukum Iqlab</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'Materi6')">Materi 6 : Hukum Panjang Bacaan</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid7')">Materi 7 : Hukum Mad Wajib</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid8')">Materi 8 : Hukum Mad Munfasil</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid9')">Materi 9 : Hukum Mad Mutasil</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid10')">Materi 10: Tempat Keluarnya Huruf</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid11')">Materi 11: Sifat-Sifat Huruf</button>
+  <button class="tablinks btn btn-success" onclick="openCity(event, 'tajwid12')">Materi 12: Latihan</button>
+</div>
+
+
+<div id="tajwid" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/ox_mSKHgT9k" 
+    frameborder="0" allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid1" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/qF_HuLMI-B4" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid2" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/ztfrZn7jBx4" 
+    frameborder="0" allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+        
+<div id="tajwid3" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/te9scAs8VGM" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+        
+<div id="tajwid4" class="tabcontent">
+    <iframe width="400" 
+    height="360" 
+    src="https://www.youtube.com/embed/uLbEKDMB-v0" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+        
+<div id="Materi5" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/5hjpzR3uHio" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+<div id="Materi6" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/jhzK_lqd4YU" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+        
+<div id="tajwid7" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/y4FuHs5Jnag" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid8" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/5D0Fl6M3Z94" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid9" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/TnO-bTtzpl4" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid10" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/rZwAiVsFVtc" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid11" class="tabcontent">
+    <iframe width="500" 
+    height="360" 
+    src="https://www.youtube.com/embed/NXUr4aVzNJ8" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+    </iframe>
+</div>
+
+<div id="tajwid12" class="tabcontent">
+        <video width="200px" height="200px" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+        </video>
+</div>
+</div>
+
+
+
+<!-- pSubvideo -->
+
+<!-- footer -->
+    <div class="foot">
+            <div class="container-fluid" style="background-color: #22996B; font-family: 'Source Sans Pro', sans-serif;">
+                    <div class="container py-5" style="background-color: #22996B">
+                        <div class="row border-bottom border-white">
+                            <div class="col-md-5 image_section p-0">
+                                <img class="mx-auto d-block w-50" src="Images/apps.png" alt="">
+                            </div>
+                            <div class="col-md-7 text-white mx-auto py-4">
+                                <h3 class="font-weight-normal">
+                                    Download GRATIS Aplikasi IQRO sekarang juga!</h3>
+                                <div class="row pl-3 pt-4">
+                                    <img class="img-fluid w-15 pr-3" src="Images/badge-app-store.png" alt="">
+                                    <img class="img-fluid w-15" src="Images/badge-google-play.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer Link -->
+                        <div class="container text-center text-white text-md-left">
+                            <div class="row">
+                                <div class="col-md-3 mx-auto">
+        
+                                    <!-- Link -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Tentang IQRO</h5>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="tentangkami.html">Tentang Kami</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="bantuan.html">Bantuan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="team.html">Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="kontak.html">Kontak Kami</a>
+                                        </li>
+                                    </ul>
+        
+                                </div>
+        
+                                <hr class="clearfix w-100 d-md-none">
+                                <div class="col-md-3 mx-auto">
+        
+                                    <!-- Link -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">IQRO Plan</h5>
+        
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="simakbacaan.html">Simak Bacaan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="pilihkelas.html">IQRO Plan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="pilihkelas.html">Tajwid</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="pilihkelas.html">Tahfidz</a>
+                                        </li>
+                                    </ul>
+        
+                                </div>
+        
+                                <hr class="clearfix w-100 d-md-none">
+        
+                                <div class="col-md-3 mx-auto">
+        
+                                    <!-- Link -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Lainnya</h5>
+        
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="syaratdanketentuan.html">Syarat dan Ketentuan</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="kebijakanprivasi.html">Kebijakan Privasi</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="#"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="#"></a>
+                                        </li>
+                                    </ul>
+        
+                                </div>
+        
+                                <hr class="clearfix w-100 d-md-none">
+        
+                                <div class="col-md-3 mx-auto">
+        
+                                    <!-- Link -->
+                                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Follow Kami di</h5>
+        
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="https://www.facebook.com/" target="_blank">
+                                                <img class="" src="Images/fb.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="https://www.instagram.com" target="_blank">
+                                                <img class="" src="Images/ig.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="https://twitter.com" target="_blank">
+                                                <img class="" src="Images/twt.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link plink" href="https://www.youtube.com/" target="_blank">
+                                                <img class="" src="Images/yt.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="footer-copyright text-center text-white py-3 shadow" style="background-color: #31A377; font-family: 'Raleway', sans-serif;">Copyright © IQRO Project 2018. All rights reserved.
+                </div>
+    </div>
+</div>
+<!-- Pfooter -->
+
+   <script src="js/video.js"></script>  
+</body>
+</html> 

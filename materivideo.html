@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
     <!-- Main CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/uji.css">
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:500|Source+Sans+Pro:400,700" rel="stylesheet">
@@ -72,6 +73,37 @@
             </div>
         </div>
     </div>
+    <!-- video -->
+      <div class="container" style="position: relative;">
+            <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                  </div>
+                  
+                  <div id="London" class="tabcontent">
+                          <video width="200px" height="200px" controls>
+                                  <source src="movie.mp4" type="video/mp4">
+                                  <source src="movie.ogg" type="video/ogg">
+                                </video>
+                  </div>
+                  
+                  <div id="Paris" class="tabcontent">
+                          <video width="200px" height="200px" controls>
+                                  <source src="movie.mp4" type="video/mp4">
+                                  <source src="movie.ogg" type="video/ogg">
+                                </video>
+                  </div>
+                  
+                  <div id="Tokyo" class="tabcontent">
+                          <video width="200px" height="200px" controls>
+                                  <source src="movie.mp4" type="video/mp4">
+                                  <source src="movie.ogg" type="video/ogg">
+                                </video>
+                  </div>
+      </div>
+  
+    <!-- penutupvideo -->
 
     <!-- Footer -->
     <Footer>
@@ -209,6 +241,7 @@
         crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
         crossorigin="anonymous "></script>
+        <script src="js/video.js"></script>
 </body>
 
 </html>
