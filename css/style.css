@@ -1,36 +1,37 @@
-.rounded {c[  ]
-  width: 220px;
-  height: auto;
+.rounded {
+	width: 220px;
+	height: auto;
 }
+
 .logoiqro2 {
-  width: 200px;
-  height: auto;
-  margin-right: 100px;
+	width: 200px;
+	height: auto;
+	margin-right: 100px;
 }
 
 .bg {
-  background-color: yellow;
+	background-color: yellow;
 }
+
 .bg1 {
-<<<<<<< HEAD
 	background-color: #eaeaea;
-=======
-  background-color: #eaeaea;
+	background-color: #eaeaea;
 }
 
 .faqHeader {
-  font-size: 27px;
-  margin: 20px;
+	font-size: 27px;
+	margin: 20px;
 }
+
 /*lupasandi*/
-.card{
+.card {
 	margin-top: 30px;
 	width: 450px;
 	margin-bottom: 20px;
 
 }
 
-.input{
+.input {
 	width: 400px;
 	height: 33px;
 	border-radius: 5px;
@@ -39,80 +40,85 @@
 	padding-left: 9px;
 	margin-top: 3px;
 	font-size: 14px;
-	margin-bottom: 10px;s
+	margin-bottom: 10px;
 }
-.label{
+
+.label {
 	margin-left: 8px;
 	font-size: 15px;
 }
-.button{
+
+.button {
 	width: 90px;
 	height: 33px;
 	margin-top: 10px;
 	border-radius: 33px;
-	border:0px;
+	border: 0px;
 	background-color: #f89825;
 	justify-content: left;
 }
 
 
 .panel-heading [data-toggle='collapse']:after {
-  font-family: 'Glyphicons Halflings';
-  content: '\e072'; /* "play" icon */
-  float: right;
-  color: #2eb5c0;
-  font-size: 18px;
-  line-height: 22px;
-  /* rotate "play" icon from > (right arrow) to down arrow */
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+	font-family: 'Glyphicons Halflings';
+	content: '\e072';
+	/* "play" icon */
+	float: right;
+	color: #2eb5c0;
+	font-size: 18px;
+	line-height: 22px;
+	/* rotate "play" icon from > (right arrow) to down arrow */
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
 .panel-heading [data-toggle='collapse'].collapsed:after {
-  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-  color: #208349;
->>>>>>> 0479dbf1d7cf6e6c021df1abe5be41007faee16c
+	/* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	color: #208349;
 }
 
 
-.bg1 
-
-
-.bg2{
-	background-color: yellow;		
+.bg1 .bg2 {
+	background-color: yellow;
 }
-.bg3{
+
+.bg3 {
 	background-color: red;
 }
-.bg4{
+
+.bg4 {
 	background-color: blue;
 }
-<<<<<<< HEAD
+
+
 /*Banner*/
-.banner{
+.banner {
 	margin-bottom: 10px;
 
 }
-.logobenner{
- padding-top: 5px;
- padding-left: 60px;
+
+.logobenner {
+	padding-top: 5px;
+	padding-left: 60px;
 }
-.button{
+
+.button {
 	position: relative;
 	left: 95px;
 	margin: 5px;
 	padding: 4px;
-	
+
 }
-ul{
+
+ul {
 	list-style: none;
 }
 
@@ -120,103 +126,111 @@ ul{
 
 /*bagian Simak*/
 
-.simak{
- padding-top: 5px;
- margin-bottom: 10px;
+.simak {
+	padding-top: 5px;
+	margin-bottom: 10px;
 
 }
 
 /*penutup Simak*/
-=======
-
-.fa{
-  color: #50DD66;
+.fa {
+	color: #50DD66;
 }
 
-.image_section{
-  display: block;
+.image_section {
+	display: block;
 }
 
-@media (max-width:640px){
-  .image_section img:first-child{
-      display:none;
-  }
+@media (max-width:640px) {
+	.image_section img:first-child {
+		display: none;
+	}
 }
 
-.plink{
-padding: 0px;
-color: white;
+.plink {
+	padding: 0px;
+	color: white;
 }
 
-.plink:hover{
-  padding: 0px;
-  color:#9ed8b0;
+.plink:hover {
+	padding: 0px;
+	color: #9ed8b0;
 }
 
 .plink:active {
-  color: #3db161;
+	color: #3db161;
 }
 
-.plink img{
-  padding-left: 20px;
+.plink img {
+	padding-left: 20px;
 }
-.plink img:hover{
-  padding-left: 20px;
-  opacity: 0.6;
+
+.plink img:hover {
+	padding-left: 20px;
+	opacity: 0.6;
 }
+
 /*banner*/
-.banner{
-  margin-bottom: 10px;
+.banner {
+	margin-bottom: 10px;
 
 }
-.logobenner{
- padding-top: 5px;
- padding-left: 60px;
+
+.logobenner {
+	padding-top: 5px;
+	padding-left: 60px;
 }
-.button{
-  position: relative;
-  left: 95px;
-  margin: 5px;
-  padding: 4px;
-  
+
+.button {
+	position: relative;
+	left: 95px;
+	margin: 5px;
+	padding: 4px;
+
 }
-ul{
-  list-style: none;
+
+ul {
+	list-style: none;
 }
+
 /*penutup Banner*/
 
 /*simak*/
-.simak{
-  padding-top: 5px;
-  padding-left: 10px;
-  margin-bottom: 20px;
+.simak {
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 20px;
 }
+
 /*penutup simak*/
 
 /*login*/
-.card{
+.card {
 	margin-top: 30px;
 	width: 450px;
 	margin-bottom: 20px;
 
 }
-.btn1{
+
+.btn1 {
 	background-color: #05916e;
 	color: white;
-	border-color:#3cc4e5;
-	border:1px solid;
+	border-color: #3cc4e5;
+	border: 1px solid;
 	width: 200px;
 	height: 35px;
 }
-.btn2{
+
+.btn2 {
 	background-color: white;
 	color: #fbc68c;
-	border:1px solid;
-	border-color:#3cc4e5;
+	border: 1px solid;
+	border-color: #3cc4e5;
 	width: 200px;
 	height: 35px;
 }
-.input{
+
+.input {
 	width: 400px;
 	height: 33px;
 	border-radius: 5px;
@@ -225,42 +239,47 @@ ul{
 	padding-left: 9px;
 	margin-top: 3px;
 	font-size: 14px;
-	margin-bottom: 10px;s
+	margin-bottom: 10px;
 }
-.label{
+
+.label {
 	margin-left: 8px;
 	font-size: 15px;
 }
-.button{
+
+.button {
 	width: 200px;
 	height: 33px;
 	margin-top: 10px;
 	border-radius: 33px;
-	border:0px;
+	border: 0px;
 	background-color: #f89825;
 
 }
-.google{
+
+.google {
 	width: 200px;
 	height: 32px;
 	color: white;
 	border-radius: 33px;
-	border:0px;
+	border: 0px;
 	margin-bottom: 20px;
 	background-color: #FF0000;
 }
-.facebook{
+
+.facebook {
 	width: 200px;
 	height: 32px;
 	color: white;
 	border-radius: 33px;
-	border:0px;
+	border: 0px;
 	margin-bottom: 20px;
 	background-color: #3078c1;
-	
+
 }
+
 /* video */
-.tab{
+.tab {
 	float: left;
 	border: 1px solid #ccc;
 	background-color: #f1f1f1;
@@ -280,6 +299,7 @@ ul{
 	cursor: pointer;
 	transition: 0.3s;
 }
+
 .tab button:hover {
 	background-color: #ddd;
 }
@@ -297,18 +317,19 @@ ul{
 	height: 200px;
 }
 
-.sizing{
+.sizing {
 	box-sizing: border-box;
 }
+
 /* Pvideo */
 
 /*daftar*/
-.button2{
+.button2 {
 	width: 400px;
 	height: 32px;
 	margin-top: 10px;
 	border-radius: 33px;
-	border:0px;
+	border: 0px;
 	background-color: #f89825;
 	margin-bottom: 30px;
 
